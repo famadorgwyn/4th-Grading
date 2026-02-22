@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 { color: #333; }
+
+button {
+    padding: 10px 18px;
+    margin: 8px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #6c63ff;
+    color: white;
+    font-size: 16px;
+}
+
+button:hover { background-color: #574fd6; }
+
+.reset {
+    background-color: #ff6b6b;
+}
+
+.reset:hover { background-color: #d9534f; }
+
+.results, .scoreboard { margin-top: 18px; }
+
+.results h2 { margin-top: 10px; color: #444; }
+
+.scoreboard p { font-weight: bold; }
